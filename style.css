@@ -1,0 +1,36 @@
+* {
+  border: 1px solid black;
+}
+body {
+  background-color: aqua;
+}
+
+.board {
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  background-color: azure;
+  height: 20rem;
+  width: 20rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.top,
+.mid,
+.bottom {
+  /* height: 300px; */
+}
+
+.grid {
+  height: auto;
+}
+.grid:hover {
+  background-color: aliceblue;
+}
